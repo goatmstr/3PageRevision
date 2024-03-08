@@ -16,43 +16,53 @@ a:hover {
   font-style: italic;
 }
 
-.Logo {
-  display: inline;
-  color: white;
-  margin-right: 15px;
-  margin-left: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #NBALogo {
   max-height: auto;
-  max-width: 4%;
+  max-width: 40px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .blueButton {
   background-color: #00438c;
-  display: inline-block;
   color: white;
-  margin-right: 15px;
+
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .redButton {
   background-color: #da1a32;
-  display: inline-block;
   color: white;
-  margin-right: 15px;
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+}
 .mainImage {
-  max-width: 500px;
+  max-width: 700px;
   max-height: auto;
   margin-bottom: 25px;
+  border-radius: 30px;
 }
 
 .red-text-box {
@@ -63,6 +73,8 @@ a:hover {
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .blue-text-box {
@@ -73,6 +85,8 @@ a:hover {
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .text {
@@ -90,14 +104,19 @@ h2 {
   color: #00438c;
 }
 
+.examples {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .exampleBox {
-  display: inline-block;
-  width: 45%;
+  width: 40%;
   height: auto;
 }
 
 img {
-  height: 100%;
+  height: auto;
   width: 100%;
   object-fit: contain;
+  margin-bottom: 20px;
 }
